@@ -48,6 +48,10 @@ header {
 
 
 /*Nav*/
+.nav-icon {
+  fill: #39add1;
+}
+
 
 .heart-icon {
   height: 13px;
@@ -113,14 +117,37 @@ footer {
 
 /*Logo*/
 
+        
+.txt {
+  fill:#EAAA7F;
+}
+
+.logo-inn {
+  fill:#BA8058;
+}
 
 .dogs {
   height: 170px;
   width: 170px;
 } 
 
+.paw {
+    fill:#F4C6A6;
+    opacity: 0;
+    stroke: #000;
+    stroke-width: .5;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: offset 5s linear forwards;
+ }
+
+
+
+
+
+
 /*Logo text */
-.st1 {
+.txt {
    opacity: 0;
 }
 
@@ -221,16 +248,49 @@ a:hover .contact-icon {
   animation: contact 1.5s ease-out;
 }
 
-.paw {
-    opacity: 0;
-    stroke: #000;
-    stroke-width: .5;
-    stroke-dasharray: 200;
-    stroke-dashoffset: 200;
-    animation: offset 5s linear forwards;
- }
+
 
 /*DOGS*/
+
+
+.st2red,
+.st2fawn,
+.st2sable,
+.st3tan{
+  fill:#2D3339;
+}
+
+.st3red,
+.st0fawn
+{
+  fill:#EAAA7F;
+}
+
+.st2tan,
+.st1red,
+.st1fawn,
+.st1sable{
+  fill:#FBFEFF;
+}
+
+.st0red,
+.st3sable,
+.st0tan{
+  fill:#BA8058;
+}
+
+.st3fawn{
+  fill:#F4C6A6;
+}
+
+.st0sable{
+  fill:#844B24;
+}
+
+.st1tan{
+  fill:#52595F;
+}
+
 
 .dogs * {
 transform-origin: 85px 85px;
@@ -257,7 +317,7 @@ transform-origin: 85px 85px;
 
 /*Logo text */
 
-.st1 {
+.txt {
     stroke: #000;
     stroke-width: .5;
     stroke-dasharray: 100;
